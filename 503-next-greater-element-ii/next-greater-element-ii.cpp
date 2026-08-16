@@ -15,9 +15,9 @@ public:
             st.push(nums[index]);
         }
         
-        for(int i = 0 ; i < size ; i++){
-            result.push_back(answer[i]);
-        }
-        return result;
+        // for(int i = 0 ; i < size ; i++){
+        //     result.push_back(answer[i]);
+        // }
+        return answer;
     }
 };
