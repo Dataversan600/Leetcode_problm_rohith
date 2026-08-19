@@ -14,9 +14,5 @@ public:
         return i;
 }
 return -1;
-        for(int i=0;i< n;i++){
-            if(s[i]==ans) return i;
-        }
-        return -1;
-    }
+    }     
 };
