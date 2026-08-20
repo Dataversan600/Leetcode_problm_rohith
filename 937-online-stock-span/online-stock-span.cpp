@@ -10,7 +10,7 @@ public:
     StockSpanner() {
       
        int ind = -1;
-       clear(st);
+       //clear(st);
     }
     
     int next(int price) {
