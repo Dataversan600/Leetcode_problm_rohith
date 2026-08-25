@@ -6,9 +6,9 @@ public:
         for(int i = 0; i < s.size(); i++) {
 
             char ch = s[i];
-            char s1 = 32;
+            
             if(ch >=65 && ch<=90){
-                s[i] = s[i]+s1;
+                s[i] = s[i]+32;
             }
 
         }
